@@ -224,12 +224,12 @@ func AroOnOsc(inHigh []float64, inLow []float64, optInTimePeriod int) []float64 
  * Output = double
  * 
  */
-func AsIn(inReal []float64) []float64 {
+func ASin(inReal []float64) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_AsIn(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_ASin(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -444,12 +444,12 @@ func Cdl3InSide(inOpen []float64, inHigh []float64, inLow []float64, inClose []f
  * Output = int
  * 
  */
-func Cdl3LIneStrike(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func Cdl3LineStrike(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_Cdl3LIneStrike(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_Cdl3LineStrike(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -586,12 +586,12 @@ func CdlBreakaway(inOpen []float64, inHigh []float64, inLow []float64, inClose [
  * Output = int
  * 
  */
-func CdlclosIngMarubozu(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlCloSingMarubozu(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlclosIngMarubozu(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlCloSingMarubozu(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -711,12 +711,12 @@ func CdlDragOnflyDoji(inOpen []float64, inHigh []float64, inLow []float64, inClo
  * Output = int
  * 
  */
-func CdlengulfIng(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlEngulfing(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlengulfIng(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlEngulfing(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -734,12 +734,12 @@ func CdlengulfIng(inOpen []float64, inHigh []float64, inLow []float64, inClose [
  * 
  * 
  */
-func CdlevenIngDojiStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
+func CdlEveningDojiStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlevenIngDojiStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlEveningDojiStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -757,12 +757,12 @@ func CdlevenIngDojiStar(inOpen []float64, inHigh []float64, inLow []float64, inC
  * 
  * 
  */
-func CdlevenIngStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
+func CdlEveningStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlevenIngStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlEveningStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -825,12 +825,12 @@ func CdlHammer(inOpen []float64, inHigh []float64, inLow []float64, inClose []fl
  * Output = int
  * 
  */
-func CdlhangIngMan(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlHangingMan(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlhangIngMan(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlHangingMan(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -927,12 +927,12 @@ func CdlHikkakeMod(inOpen []float64, inHigh []float64, inLow []float64, inClose 
  * Output = int
  * 
  */
-func CdlhomIngPigeOn(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlHoMingPigeOn(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlhomIngPigeOn(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlHoMingPigeOn(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -961,12 +961,12 @@ func CdlIdentical3Crows(inOpen []float64, inHigh []float64, inLow []float64, inC
  * Output = int
  * 
  */
-func CdlInNeck(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlinNeck(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlInNeck(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlinNeck(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -978,12 +978,12 @@ func CdlInNeck(inOpen []float64, inHigh []float64, inLow []float64, inClose []fl
  * Output = int
  * 
  */
-func CdlInvertedHammer(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlinvertedHammer(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlInvertedHammer(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlinvertedHammer(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -995,12 +995,12 @@ func CdlInvertedHammer(inOpen []float64, inHigh []float64, inLow []float64, inCl
  * Output = int
  * 
  */
-func CdlkickIng(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlKicking(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlkickIng(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlKicking(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1012,12 +1012,12 @@ func CdlkickIng(inOpen []float64, inHigh []float64, inLow []float64, inClose []f
  * Output = int
  * 
  */
-func CdlkickIngByLength(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlKickingByLength(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlkickIngByLength(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlKickingByLength(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1063,12 +1063,12 @@ func CdlLOngLeggedDoji(inOpen []float64, inHigh []float64, inLow []float64, inCl
  * Output = int
  * 
  */
-func CdlLOngLIne(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlLOngLine(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlLOngLIne(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlLOngLine(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1097,12 +1097,12 @@ func CdlMarubozu(inOpen []float64, inHigh []float64, inLow []float64, inClose []
  * Output = int
  * 
  */
-func CdlMatchIngLow(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlMatchingLow(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlMatchIngLow(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlMatchingLow(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1143,12 +1143,12 @@ func CdlMatHold(inOpen []float64, inHigh []float64, inLow []float64, inClose []f
  * 
  * 
  */
-func CdlmornIngDojiStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
+func CdlMorningDojiStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlmornIngDojiStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlMorningDojiStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1166,12 +1166,12 @@ func CdlmornIngDojiStar(inOpen []float64, inHigh []float64, inLow []float64, inC
  * 
  * 
  */
-func CdlmornIngStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
+func CdlMorningStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64, optInPenetration float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlmornIngStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlMorningStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInPenetration, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1200,12 +1200,12 @@ func CdlOnNeck(inOpen []float64, inHigh []float64, inLow []float64, inClose []fl
  * Output = int
  * 
  */
-func CdlpiercIng(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlPiercing(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlpiercIng(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlPiercing(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1251,12 +1251,12 @@ func CdlRiseFall3Methods(inOpen []float64, inHigh []float64, inLow []float64, in
  * Output = int
  * 
  */
-func CdlseparatIngLines(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlSeparatingLines(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlseparatIngLines(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlSeparatingLines(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1268,12 +1268,12 @@ func CdlseparatIngLines(inOpen []float64, inHigh []float64, inLow []float64, inC
  * Output = int
  * 
  */
-func CdlshootIngStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlShootingStar(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlshootIngStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlShootingStar(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1285,12 +1285,12 @@ func CdlshootIngStar(inOpen []float64, inHigh []float64, inLow []float64, inClos
  * Output = int
  * 
  */
-func CdlShortLIne(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlShortLine(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlShortLIne(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlShortLine(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1302,12 +1302,12 @@ func CdlShortLIne(inOpen []float64, inHigh []float64, inLow []float64, inClose [
  * Output = int
  * 
  */
-func CdlspInningTop(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlSpinningTop(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlspInningTop(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlSpinningTop(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1387,12 +1387,12 @@ func CdlTasukiGap(inOpen []float64, inHigh []float64, inLow []float64, inClose [
  * Output = int
  * 
  */
-func CdlthrustIng(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
+func CdlThrusting(inOpen []float64, inHigh []float64, inLow []float64, inClose []float64) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inOpen)
     outInteger := make([]int, n)
-    ta_CdlthrustIng(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_CdlThrusting(0, n - 1, (*float64)(&inOpen[0]), (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -1740,12 +1740,12 @@ func HtPhasor(inReal []float64, outInPhase *float64, outQuadrature *float64) []f
  * Output = double, double
  * 
  */
-func HtSIne(inReal []float64, outSine *float64, outLeadSine *float64) []float64 {
+func HtSine(inReal []float64, outSine *float64, outLeadSine *float64) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_HtSIne(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, outSine, outLeadSine)
+    ta_HtSine(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, outSine, outLeadSine)
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -1757,12 +1757,12 @@ func HtSIne(inReal []float64, outSine *float64, outLeadSine *float64) []float64 
  * Output = double
  * 
  */
-func HtTrendLIne(inReal []float64) []float64 {
+func HtTrendLine(inReal []float64) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_HtTrendLIne(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_HtTrendLine(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -1820,12 +1820,12 @@ func Kama(inReal []float64, optInTimePeriod int) []float64 {
  * 
  * 
  */
-func LInearReg(inReal []float64, optInTimePeriod int) []float64 {
+func LinearReg(inReal []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_LInearReg(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_LinearReg(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -1843,12 +1843,12 @@ func LInearReg(inReal []float64, optInTimePeriod int) []float64 {
  * 
  * 
  */
-func LInearRegAngle(inReal []float64, optInTimePeriod int) []float64 {
+func LinearRegAngle(inReal []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_LInearRegAngle(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_LinearRegAngle(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -1866,12 +1866,12 @@ func LInearRegAngle(inReal []float64, optInTimePeriod int) []float64 {
  * 
  * 
  */
-func LInearRegIntercept(inReal []float64, optInTimePeriod int) []float64 {
+func LinearRegIntercept(inReal []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_LInearRegIntercept(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_LinearRegIntercept(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -1889,12 +1889,12 @@ func LInearRegIntercept(inReal []float64, optInTimePeriod int) []float64 {
  * 
  * 
  */
-func LInearRegSlope(inReal []float64, optInTimePeriod int) []float64 {
+func LinearRegSlope(inReal []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_LInearRegSlope(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_LinearRegSlope(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2203,12 +2203,12 @@ func Mfi(inHigh []float64, inLow []float64, inClose []float64, inVolume []float6
  * 
  * 
  */
-func MidpoInt(inReal []float64, optInTimePeriod int) []float64 {
+func MidPoint(inReal []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_MidpoInt(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_MidPoint(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2249,12 +2249,12 @@ func MidPrice(inHigh []float64, inLow []float64, optInTimePeriod int) []float64 
  * 
  * 
  */
-func MIn(inReal []float64, optInTimePeriod int) []float64 {
+func Min(inReal []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_MIn(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_Min(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2272,12 +2272,12 @@ func MIn(inReal []float64, optInTimePeriod int) []float64 {
  * 
  * 
  */
-func MInIndex(inReal []float64, optInTimePeriod int) []int {
+func MinIndex(inReal []float64, optInTimePeriod int) []int {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outInteger := make([]int, n)
-    ta_MInIndex(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
+    ta_MinIndex(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*int)(&outInteger[0]))
     outInteger = append(make([]int, outBegIdx), outInteger[:outNBElement]...)
     return outInteger
 }
@@ -2295,12 +2295,12 @@ func MInIndex(inReal []float64, optInTimePeriod int) []int {
  * 
  * 
  */
-func MInMax(inReal []float64, optInTimePeriod int, outMin *float64, outMax *float64) []float64 {
+func MinMax(inReal []float64, optInTimePeriod int, outMin *float64, outMax *float64) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_MInMax(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, outMin, outMax)
+    ta_MinMax(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, outMin, outMax)
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2318,12 +2318,12 @@ func MInMax(inReal []float64, optInTimePeriod int, outMin *float64, outMax *floa
  * 
  * 
  */
-func MInMaxIndex(inReal []float64, optInTimePeriod int, outMinIdx *int, outMaxIdx *int) []float64 {
+func MinMaxIndex(inReal []float64, optInTimePeriod int, outMinIdx *int, outMaxIdx *int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_MInMaxIndex(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, outMinIdx, outMaxIdx)
+    ta_MinMaxIndex(0, n - 1, (*float64)(&inReal[0]), optInTimePeriod, &outBegIdx, &outNBElement, outMinIdx, outMaxIdx)
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2341,12 +2341,12 @@ func MInMaxIndex(inReal []float64, optInTimePeriod int, outMinIdx *int, outMaxId
  * 
  * 
  */
-func MInusDi(inHigh []float64, inLow []float64, inClose []float64, optInTimePeriod int) []float64 {
+func MinusDi(inHigh []float64, inLow []float64, inClose []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inHigh)
     outReal := make([]float64, n)
-    ta_MInusDi(0, n - 1, (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_MinusDi(0, n - 1, (*float64)(&inHigh[0]), (*float64)(&inLow[0]), (*float64)(&inClose[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2364,12 +2364,12 @@ func MInusDi(inHigh []float64, inLow []float64, inClose []float64, optInTimePeri
  * 
  * 
  */
-func MInusDm(inHigh []float64, inLow []float64, optInTimePeriod int) []float64 {
+func MinusDm(inHigh []float64, inLow []float64, optInTimePeriod int) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inHigh)
     outReal := make([]float64, n)
-    ta_MInusDm(0, n - 1, (*float64)(&inHigh[0]), (*float64)(&inLow[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_MinusDm(0, n - 1, (*float64)(&inHigh[0]), (*float64)(&inLow[0]), optInTimePeriod, &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2726,7 +2726,7 @@ func Sin(inReal []float64) []float64 {
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_SIn(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_Sin(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }
@@ -2743,7 +2743,7 @@ func Sinh(inReal []float64) []float64 {
     var outNBElement int
     n := len(inReal)
     outReal := make([]float64, n)
-    ta_SInh(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
+    ta_Sinh(0, n - 1, (*float64)(&inReal[0]), &outBegIdx, &outNBElement, (*float64)(&outReal[0]))
     outReal = append(make([]float64, outBegIdx), outReal[:outNBElement]...)
     return outReal
 }

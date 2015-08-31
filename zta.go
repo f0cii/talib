@@ -22,7 +22,7 @@ var (
 	procZ_Apo = modtalib.NewProc("Z_Apo")
 	procZ_AroOn = modtalib.NewProc("Z_AroOn")
 	procZ_AroOnOsc = modtalib.NewProc("Z_AroOnOsc")
-	procZ_AsIn = modtalib.NewProc("Z_AsIn")
+	procZ_ASin = modtalib.NewProc("Z_ASin")
 	procZ_Atan = modtalib.NewProc("Z_Atan")
 	procZ_Atr = modtalib.NewProc("Z_Atr")
 	procZ_AvgPrice = modtalib.NewProc("Z_AvgPrice")
@@ -33,7 +33,7 @@ var (
 	procZ_Cdl2Crows = modtalib.NewProc("Z_Cdl2Crows")
 	procZ_Cdl3BlackCrows = modtalib.NewProc("Z_Cdl3BlackCrows")
 	procZ_Cdl3InSide = modtalib.NewProc("Z_Cdl3InSide")
-	procZ_Cdl3LIneStrike = modtalib.NewProc("Z_Cdl3LIneStrike")
+	procZ_Cdl3LineStrike = modtalib.NewProc("Z_Cdl3LineStrike")
 	procZ_Cdl3OutSide = modtalib.NewProc("Z_Cdl3OutSide")
 	procZ_Cdl3StarsInSouth = modtalib.NewProc("Z_Cdl3StarsInSouth")
 	procZ_Cdl3WhiteSoldiers = modtalib.NewProc("Z_Cdl3WhiteSoldiers")
@@ -41,52 +41,52 @@ var (
 	procZ_CdlAdvanceBlock = modtalib.NewProc("Z_CdlAdvanceBlock")
 	procZ_CdlBeltHold = modtalib.NewProc("Z_CdlBeltHold")
 	procZ_CdlBreakaway = modtalib.NewProc("Z_CdlBreakaway")
-	procZ_CdlclosIngMarubozu = modtalib.NewProc("Z_CdlclosIngMarubozu")
+	procZ_CdlCloSingMarubozu = modtalib.NewProc("Z_CdlCloSingMarubozu")
 	procZ_CdlCOncealBaBySwall = modtalib.NewProc("Z_CdlCOncealBaBySwall")
 	procZ_CdlCounterattack = modtalib.NewProc("Z_CdlCounterattack")
 	procZ_CdlDarkCloudCover = modtalib.NewProc("Z_CdlDarkCloudCover")
 	procZ_CdlDoji = modtalib.NewProc("Z_CdlDoji")
 	procZ_CdlDojiStar = modtalib.NewProc("Z_CdlDojiStar")
 	procZ_CdlDragOnflyDoji = modtalib.NewProc("Z_CdlDragOnflyDoji")
-	procZ_CdlengulfIng = modtalib.NewProc("Z_CdlengulfIng")
-	procZ_CdlevenIngDojiStar = modtalib.NewProc("Z_CdlevenIngDojiStar")
-	procZ_CdlevenIngStar = modtalib.NewProc("Z_CdlevenIngStar")
+	procZ_CdlEngulfing = modtalib.NewProc("Z_CdlEngulfing")
+	procZ_CdlEveningDojiStar = modtalib.NewProc("Z_CdlEveningDojiStar")
+	procZ_CdlEveningStar = modtalib.NewProc("Z_CdlEveningStar")
 	procZ_CdlGapSidesideWhite = modtalib.NewProc("Z_CdlGapSidesideWhite")
 	procZ_CdlGravestOneDoji = modtalib.NewProc("Z_CdlGravestOneDoji")
 	procZ_CdlHammer = modtalib.NewProc("Z_CdlHammer")
-	procZ_CdlhangIngMan = modtalib.NewProc("Z_CdlhangIngMan")
+	procZ_CdlHangingMan = modtalib.NewProc("Z_CdlHangingMan")
 	procZ_CdlHarami = modtalib.NewProc("Z_CdlHarami")
 	procZ_CdlHaramiCross = modtalib.NewProc("Z_CdlHaramiCross")
 	procZ_CdlHighWave = modtalib.NewProc("Z_CdlHighWave")
 	procZ_CdlHikkake = modtalib.NewProc("Z_CdlHikkake")
 	procZ_CdlHikkakeMod = modtalib.NewProc("Z_CdlHikkakeMod")
-	procZ_CdlhomIngPigeOn = modtalib.NewProc("Z_CdlhomIngPigeOn")
+	procZ_CdlHoMingPigeOn = modtalib.NewProc("Z_CdlHoMingPigeOn")
 	procZ_CdlIdentical3Crows = modtalib.NewProc("Z_CdlIdentical3Crows")
-	procZ_CdlInNeck = modtalib.NewProc("Z_CdlInNeck")
-	procZ_CdlInvertedHammer = modtalib.NewProc("Z_CdlInvertedHammer")
-	procZ_CdlkickIng = modtalib.NewProc("Z_CdlkickIng")
-	procZ_CdlkickIngByLength = modtalib.NewProc("Z_CdlkickIngByLength")
+	procZ_CdlinNeck = modtalib.NewProc("Z_CdlinNeck")
+	procZ_CdlinvertedHammer = modtalib.NewProc("Z_CdlinvertedHammer")
+	procZ_CdlKicking = modtalib.NewProc("Z_CdlKicking")
+	procZ_CdlKickingByLength = modtalib.NewProc("Z_CdlKickingByLength")
 	procZ_CdlLadderBottom = modtalib.NewProc("Z_CdlLadderBottom")
 	procZ_CdlLOngLeggedDoji = modtalib.NewProc("Z_CdlLOngLeggedDoji")
-	procZ_CdlLOngLIne = modtalib.NewProc("Z_CdlLOngLIne")
+	procZ_CdlLOngLine = modtalib.NewProc("Z_CdlLOngLine")
 	procZ_CdlMarubozu = modtalib.NewProc("Z_CdlMarubozu")
-	procZ_CdlMatchIngLow = modtalib.NewProc("Z_CdlMatchIngLow")
+	procZ_CdlMatchingLow = modtalib.NewProc("Z_CdlMatchingLow")
 	procZ_CdlMatHold = modtalib.NewProc("Z_CdlMatHold")
-	procZ_CdlmornIngDojiStar = modtalib.NewProc("Z_CdlmornIngDojiStar")
-	procZ_CdlmornIngStar = modtalib.NewProc("Z_CdlmornIngStar")
+	procZ_CdlMorningDojiStar = modtalib.NewProc("Z_CdlMorningDojiStar")
+	procZ_CdlMorningStar = modtalib.NewProc("Z_CdlMorningStar")
 	procZ_CdlOnNeck = modtalib.NewProc("Z_CdlOnNeck")
-	procZ_CdlpiercIng = modtalib.NewProc("Z_CdlpiercIng")
+	procZ_CdlPiercing = modtalib.NewProc("Z_CdlPiercing")
 	procZ_CdlRickshawMan = modtalib.NewProc("Z_CdlRickshawMan")
 	procZ_CdlRiseFall3Methods = modtalib.NewProc("Z_CdlRiseFall3Methods")
-	procZ_CdlseparatIngLines = modtalib.NewProc("Z_CdlseparatIngLines")
-	procZ_CdlshootIngStar = modtalib.NewProc("Z_CdlshootIngStar")
-	procZ_CdlShortLIne = modtalib.NewProc("Z_CdlShortLIne")
-	procZ_CdlspInningTop = modtalib.NewProc("Z_CdlspInningTop")
+	procZ_CdlSeparatingLines = modtalib.NewProc("Z_CdlSeparatingLines")
+	procZ_CdlShootingStar = modtalib.NewProc("Z_CdlShootingStar")
+	procZ_CdlShortLine = modtalib.NewProc("Z_CdlShortLine")
+	procZ_CdlSpinningTop = modtalib.NewProc("Z_CdlSpinningTop")
 	procZ_CdlStalledPattern = modtalib.NewProc("Z_CdlStalledPattern")
 	procZ_CdlStickSandwich = modtalib.NewProc("Z_CdlStickSandwich")
 	procZ_CdlTakuri = modtalib.NewProc("Z_CdlTakuri")
 	procZ_CdlTasukiGap = modtalib.NewProc("Z_CdlTasukiGap")
-	procZ_CdlthrustIng = modtalib.NewProc("Z_CdlthrustIng")
+	procZ_CdlThrusting = modtalib.NewProc("Z_CdlThrusting")
 	procZ_CdltriStar = modtalib.NewProc("Z_CdltriStar")
 	procZ_CdlUnique3River = modtalib.NewProc("Z_CdlUnique3River")
 	procZ_CdlupSideGap2Crows = modtalib.NewProc("Z_CdlupSideGap2Crows")
@@ -105,14 +105,14 @@ var (
 	procZ_HtDcPeriod = modtalib.NewProc("Z_HtDcPeriod")
 	procZ_HtDcPhase = modtalib.NewProc("Z_HtDcPhase")
 	procZ_HtPhasor = modtalib.NewProc("Z_HtPhasor")
-	procZ_HtSIne = modtalib.NewProc("Z_HtSIne")
-	procZ_HtTrendLIne = modtalib.NewProc("Z_HtTrendLIne")
+	procZ_HtSine = modtalib.NewProc("Z_HtSine")
+	procZ_HtTrendLine = modtalib.NewProc("Z_HtTrendLine")
 	procZ_HtTrendMode = modtalib.NewProc("Z_HtTrendMode")
 	procZ_Kama = modtalib.NewProc("Z_Kama")
-	procZ_LInearReg = modtalib.NewProc("Z_LInearReg")
-	procZ_LInearRegAngle = modtalib.NewProc("Z_LInearRegAngle")
-	procZ_LInearRegIntercept = modtalib.NewProc("Z_LInearRegIntercept")
-	procZ_LInearRegSlope = modtalib.NewProc("Z_LInearRegSlope")
+	procZ_LinearReg = modtalib.NewProc("Z_LinearReg")
+	procZ_LinearRegAngle = modtalib.NewProc("Z_LinearRegAngle")
+	procZ_LinearRegIntercept = modtalib.NewProc("Z_LinearRegIntercept")
+	procZ_LinearRegSlope = modtalib.NewProc("Z_LinearRegSlope")
 	procZ_Ln = modtalib.NewProc("Z_Ln")
 	procZ_Log10 = modtalib.NewProc("Z_Log10")
 	procZ_Ma = modtalib.NewProc("Z_Ma")
@@ -122,18 +122,17 @@ var (
 	procZ_Mama = modtalib.NewProc("Z_Mama")
 	procZ_Mavp = modtalib.NewProc("Z_Mavp")
 	procZ_Max = modtalib.NewProc("Z_Max")
-	procZ_Max_Lookback = modtalib.NewProc("Z_Max_Lookback")
 	procZ_MaxIndex = modtalib.NewProc("Z_MaxIndex")
 	procZ_MedPrice = modtalib.NewProc("Z_MedPrice")
 	procZ_Mfi = modtalib.NewProc("Z_Mfi")
-	procZ_MidpoInt = modtalib.NewProc("Z_MidpoInt")
+	procZ_MidPoint = modtalib.NewProc("Z_MidPoint")
 	procZ_MidPrice = modtalib.NewProc("Z_MidPrice")
-	procZ_MIn = modtalib.NewProc("Z_MIn")
-	procZ_MInIndex = modtalib.NewProc("Z_MInIndex")
-	procZ_MInMax = modtalib.NewProc("Z_MInMax")
-	procZ_MInMaxIndex = modtalib.NewProc("Z_MInMaxIndex")
-	procZ_MInusDi = modtalib.NewProc("Z_MInusDi")
-	procZ_MInusDm = modtalib.NewProc("Z_MInusDm")
+	procZ_Min = modtalib.NewProc("Z_Min")
+	procZ_MinIndex = modtalib.NewProc("Z_MinIndex")
+	procZ_MinMax = modtalib.NewProc("Z_MinMax")
+	procZ_MinMaxIndex = modtalib.NewProc("Z_MinMaxIndex")
+	procZ_MinusDi = modtalib.NewProc("Z_MinusDi")
+	procZ_MinusDm = modtalib.NewProc("Z_MinusDm")
 	procZ_Mom = modtalib.NewProc("Z_Mom")
 	procZ_Mult = modtalib.NewProc("Z_Mult")
 	procZ_Natr = modtalib.NewProc("Z_Natr")
@@ -148,8 +147,8 @@ var (
 	procZ_Rsi = modtalib.NewProc("Z_Rsi")
 	procZ_Sar = modtalib.NewProc("Z_Sar")
 	procZ_SarExt = modtalib.NewProc("Z_SarExt")
-	procZ_SIn = modtalib.NewProc("Z_SIn")
-	procZ_SInh = modtalib.NewProc("Z_SInh")
+	procZ_Sin = modtalib.NewProc("Z_Sin")
+	procZ_Sinh = modtalib.NewProc("Z_Sinh")
 	procZ_Sma = modtalib.NewProc("Z_Sma")
 	procZ_Sqrt = modtalib.NewProc("Z_Sqrt")
 	procZ_StdDev = modtalib.NewProc("Z_StdDev")
@@ -317,8 +316,8 @@ func ta_AroOnOsc(startIdx int, endIdx int, inHigh *float64, inLow *float64, optI
 	return
 }
 
-func ta_AsIn(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall6(procZ_AsIn.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
+func ta_ASin(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall6(procZ_ASin.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -460,8 +459,8 @@ func ta_Cdl3InSide(startIdx int, endIdx int, inOpen *float64, inHigh *float64, i
 	return
 }
 
-func ta_Cdl3LIneStrike(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_Cdl3LIneStrike.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_Cdl3LineStrike(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_Cdl3LineStrike.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -564,8 +563,8 @@ func ta_CdlBreakaway(startIdx int, endIdx int, inOpen *float64, inHigh *float64,
 	return
 }
 
-func ta_CdlclosIngMarubozu(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlclosIngMarubozu.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlCloSingMarubozu(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlCloSingMarubozu.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -655,8 +654,8 @@ func ta_CdlDragOnflyDoji(startIdx int, endIdx int, inOpen *float64, inHigh *floa
 	return
 }
 
-func ta_CdlengulfIng(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlengulfIng.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlEngulfing(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlEngulfing.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -668,8 +667,8 @@ func ta_CdlengulfIng(startIdx int, endIdx int, inOpen *float64, inHigh *float64,
 	return
 }
 
-func ta_CdlevenIngDojiStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall12(procZ_CdlevenIngDojiStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
+func ta_CdlEveningDojiStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall12(procZ_CdlEveningDojiStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -681,8 +680,8 @@ func ta_CdlevenIngDojiStar(startIdx int, endIdx int, inOpen *float64, inHigh *fl
 	return
 }
 
-func ta_CdlevenIngStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall12(procZ_CdlevenIngStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
+func ta_CdlEveningStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall12(procZ_CdlEveningStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -733,8 +732,8 @@ func ta_CdlHammer(startIdx int, endIdx int, inOpen *float64, inHigh *float64, in
 	return
 }
 
-func ta_CdlhangIngMan(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlhangIngMan.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlHangingMan(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlHangingMan.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -811,8 +810,8 @@ func ta_CdlHikkakeMod(startIdx int, endIdx int, inOpen *float64, inHigh *float64
 	return
 }
 
-func ta_CdlhomIngPigeOn(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlhomIngPigeOn.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlHoMingPigeOn(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlHoMingPigeOn.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -837,8 +836,8 @@ func ta_CdlIdentical3Crows(startIdx int, endIdx int, inOpen *float64, inHigh *fl
 	return
 }
 
-func ta_CdlInNeck(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlInNeck.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlinNeck(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlinNeck.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -850,8 +849,8 @@ func ta_CdlInNeck(startIdx int, endIdx int, inOpen *float64, inHigh *float64, in
 	return
 }
 
-func ta_CdlInvertedHammer(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlInvertedHammer.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlinvertedHammer(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlinvertedHammer.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -863,8 +862,8 @@ func ta_CdlInvertedHammer(startIdx int, endIdx int, inOpen *float64, inHigh *flo
 	return
 }
 
-func ta_CdlkickIng(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlkickIng.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlKicking(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlKicking.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -876,8 +875,8 @@ func ta_CdlkickIng(startIdx int, endIdx int, inOpen *float64, inHigh *float64, i
 	return
 }
 
-func ta_CdlkickIngByLength(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlkickIngByLength.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlKickingByLength(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlKickingByLength.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -915,8 +914,8 @@ func ta_CdlLOngLeggedDoji(startIdx int, endIdx int, inOpen *float64, inHigh *flo
 	return
 }
 
-func ta_CdlLOngLIne(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlLOngLIne.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlLOngLine(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlLOngLine.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -941,8 +940,8 @@ func ta_CdlMarubozu(startIdx int, endIdx int, inOpen *float64, inHigh *float64, 
 	return
 }
 
-func ta_CdlMatchIngLow(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlMatchIngLow.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlMatchingLow(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlMatchingLow.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -967,8 +966,8 @@ func ta_CdlMatHold(startIdx int, endIdx int, inOpen *float64, inHigh *float64, i
 	return
 }
 
-func ta_CdlmornIngDojiStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall12(procZ_CdlmornIngDojiStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
+func ta_CdlMorningDojiStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall12(procZ_CdlMorningDojiStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -980,8 +979,8 @@ func ta_CdlmornIngDojiStar(startIdx int, endIdx int, inOpen *float64, inHigh *fl
 	return
 }
 
-func ta_CdlmornIngStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall12(procZ_CdlmornIngStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
+func ta_CdlMorningStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, optInPenetration float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall12(procZ_CdlMorningStar.Addr(), 10, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInPenetration), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1006,8 +1005,8 @@ func ta_CdlOnNeck(startIdx int, endIdx int, inOpen *float64, inHigh *float64, in
 	return
 }
 
-func ta_CdlpiercIng(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlpiercIng.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlPiercing(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlPiercing.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1045,8 +1044,8 @@ func ta_CdlRiseFall3Methods(startIdx int, endIdx int, inOpen *float64, inHigh *f
 	return
 }
 
-func ta_CdlseparatIngLines(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlseparatIngLines.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlSeparatingLines(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlSeparatingLines.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1058,8 +1057,8 @@ func ta_CdlseparatIngLines(startIdx int, endIdx int, inOpen *float64, inHigh *fl
 	return
 }
 
-func ta_CdlshootIngStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlshootIngStar.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlShootingStar(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlShootingStar.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1071,8 +1070,8 @@ func ta_CdlshootIngStar(startIdx int, endIdx int, inOpen *float64, inHigh *float
 	return
 }
 
-func ta_CdlShortLIne(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlShortLIne.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlShortLine(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlShortLine.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1084,8 +1083,8 @@ func ta_CdlShortLIne(startIdx int, endIdx int, inOpen *float64, inHigh *float64,
 	return
 }
 
-func ta_CdlspInningTop(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlspInningTop.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlSpinningTop(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlSpinningTop.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1149,8 +1148,8 @@ func ta_CdlTasukiGap(startIdx int, endIdx int, inOpen *float64, inHigh *float64,
 	return
 }
 
-func ta_CdlthrustIng(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_CdlthrustIng.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
+func ta_CdlThrusting(startIdx int, endIdx int, inOpen *float64, inHigh *float64, inLow *float64, inClose *float64, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_CdlThrusting.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inOpen)), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1396,8 +1395,8 @@ func ta_HtPhasor(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outN
 	return
 }
 
-func ta_HtSIne(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outSine *float64, outLeadSine *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_HtSIne.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outSine)), uintptr(unsafe.Pointer(outLeadSine)), 0, 0)
+func ta_HtSine(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outSine *float64, outLeadSine *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_HtSine.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outSine)), uintptr(unsafe.Pointer(outLeadSine)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1409,8 +1408,8 @@ func ta_HtSIne(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBE
 	return
 }
 
-func ta_HtTrendLIne(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall6(procZ_HtTrendLIne.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
+func ta_HtTrendLine(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall6(procZ_HtTrendLine.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1448,8 +1447,8 @@ func ta_Kama(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, out
 	return
 }
 
-func ta_LInearReg(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_LInearReg.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
+func ta_LinearReg(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_LinearReg.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1461,8 +1460,8 @@ func ta_LInearReg(startIdx int, endIdx int, inReal *float64, optInTimePeriod int
 	return
 }
 
-func ta_LInearRegAngle(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_LInearRegAngle.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
+func ta_LinearRegAngle(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_LinearRegAngle.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1474,8 +1473,8 @@ func ta_LInearRegAngle(startIdx int, endIdx int, inReal *float64, optInTimePerio
 	return
 }
 
-func ta_LInearRegIntercept(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_LInearRegIntercept.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
+func ta_LinearRegIntercept(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_LinearRegIntercept.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1487,8 +1486,8 @@ func ta_LInearRegIntercept(startIdx int, endIdx int, inReal *float64, optInTimeP
 	return
 }
 
-func ta_LInearRegSlope(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_LInearRegSlope.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
+func ta_LinearRegSlope(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_LinearRegSlope.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1617,19 +1616,6 @@ func ta_Max(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outB
 	return
 }
 
-func ta_Max_Lookback(optInTimePeriod int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall(procZ_Max_Lookback.Addr(), 1, uintptr(optInTimePeriod), 0, 0)
-	retCode = int(r0)
-	if retCode == 0 {
-		if e1 != 0 {
-			err = error(e1)
-		} else {
-			err = syscall.EINVAL
-		}
-	}
-	return
-}
-
 func ta_MaxIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
 	r0, _, e1 := syscall.Syscall9(procZ_MaxIndex.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
 	retCode = int(r0)
@@ -1669,8 +1655,8 @@ func ta_Mfi(startIdx int, endIdx int, inHigh *float64, inLow *float64, inClose *
 	return
 }
 
-func ta_MidpoInt(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MidpoInt.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
+func ta_MidPoint(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_MidPoint.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1695,8 +1681,8 @@ func ta_MidPrice(startIdx int, endIdx int, inHigh *float64, inLow *float64, optI
 	return
 }
 
-func ta_MIn(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MIn.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
+func ta_Min(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_Min.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1708,8 +1694,8 @@ func ta_MIn(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outB
 	return
 }
 
-func ta_MInIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MInIndex.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
+func ta_MinIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outInteger *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_MinIndex.Addr(), 7, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outInteger)), 0, 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1721,8 +1707,8 @@ func ta_MInIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod int,
 	return
 }
 
-func ta_MInMax(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outMin *float64, outMax *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MInMax.Addr(), 8, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outMin)), uintptr(unsafe.Pointer(outMax)), 0)
+func ta_MinMax(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outMin *float64, outMax *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_MinMax.Addr(), 8, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outMin)), uintptr(unsafe.Pointer(outMax)), 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1734,8 +1720,8 @@ func ta_MInMax(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, o
 	return
 }
 
-func ta_MInMaxIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outMinIdx *int, outMaxIdx *int) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MInMaxIndex.Addr(), 8, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outMinIdx)), uintptr(unsafe.Pointer(outMaxIdx)), 0)
+func ta_MinMaxIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outMinIdx *int, outMaxIdx *int) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_MinMaxIndex.Addr(), 8, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outMinIdx)), uintptr(unsafe.Pointer(outMaxIdx)), 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1747,8 +1733,8 @@ func ta_MInMaxIndex(startIdx int, endIdx int, inReal *float64, optInTimePeriod i
 	return
 }
 
-func ta_MInusDi(startIdx int, endIdx int, inHigh *float64, inLow *float64, inClose *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MInusDi.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
+func ta_MinusDi(startIdx int, endIdx int, inHigh *float64, inLow *float64, inClose *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_MinusDi.Addr(), 9, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(unsafe.Pointer(inClose)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1760,8 +1746,8 @@ func ta_MInusDi(startIdx int, endIdx int, inHigh *float64, inLow *float64, inClo
 	return
 }
 
-func ta_MInusDm(startIdx int, endIdx int, inHigh *float64, inLow *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall9(procZ_MInusDm.Addr(), 8, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0)
+func ta_MinusDm(startIdx int, endIdx int, inHigh *float64, inLow *float64, optInTimePeriod int, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall9(procZ_MinusDm.Addr(), 8, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inHigh)), uintptr(unsafe.Pointer(inLow)), uintptr(optInTimePeriod), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)), 0)
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1955,8 +1941,8 @@ func ta_SarExt(startIdx int, endIdx int, inHigh *float64, inLow *float64, optInS
 	return
 }
 
-func ta_SIn(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall6(procZ_SIn.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
+func ta_Sin(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall6(procZ_Sin.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {
@@ -1968,8 +1954,8 @@ func ta_SIn(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElem
 	return
 }
 
-func ta_SInh(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
-	r0, _, e1 := syscall.Syscall6(procZ_SInh.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
+func ta_Sinh(startIdx int, endIdx int, inReal *float64, outBegIdx *int, outNBElement *int, outReal *float64) (retCode int, err error) {
+	r0, _, e1 := syscall.Syscall6(procZ_Sinh.Addr(), 6, uintptr(startIdx), uintptr(endIdx), uintptr(unsafe.Pointer(inReal)), uintptr(unsafe.Pointer(outBegIdx)), uintptr(unsafe.Pointer(outNBElement)), uintptr(unsafe.Pointer(outReal)))
 	retCode = int(r0)
 	if retCode == 0 {
 		if e1 != 0 {

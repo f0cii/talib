@@ -8,12 +8,12 @@
 
 TA_EXPORT TA_RetCode Z_Initialize()
 {
-    return TA_Initialize();
+	return TA_Initialize();
 }
 
 TA_EXPORT TA_RetCode Z_Shutdown()
 {
-    return TA_Shutdown();
+	return TA_Shutdown();
 }
 
 TA_EXPORT TA_RetCode Z_Acos(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
@@ -52,7 +52,7 @@ TA_EXPORT TA_RetCode Z_AroOnOsc(int startIdx, int endIdx, const double *inHigh, 
     return TA_AROONOSC(startIdx, endIdx, inHigh, inLow, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_AsIn(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_ASin(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_ASIN(startIdx, endIdx, inReal, outBegIdx, outNBElement, outReal);
 }
 
@@ -96,7 +96,7 @@ TA_EXPORT TA_RetCode Z_Cdl3InSide(int startIdx, int endIdx, const double *inOpen
     return TA_CDL3INSIDE(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_Cdl3LIneStrike(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_Cdl3LineStrike(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDL3LINESTRIKE(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -128,7 +128,7 @@ TA_EXPORT TA_RetCode Z_CdlBreakaway(int startIdx, int endIdx, const double *inOp
     return TA_CDLBREAKAWAY(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlclosIngMarubozu(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlCloSingMarubozu(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLCLOSINGMARUBOZU(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -156,15 +156,15 @@ TA_EXPORT TA_RetCode Z_CdlDragOnflyDoji(int startIdx, int endIdx, const double *
     return TA_CDLDRAGONFLYDOJI(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlengulfIng(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlEngulfing(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLENGULFING(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlevenIngDojiStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlEveningDojiStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLEVENINGDOJISTAR(startIdx, endIdx, inOpen, inHigh, inLow, inClose, optInPenetration, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlevenIngStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlEveningStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLEVENINGSTAR(startIdx, endIdx, inOpen, inHigh, inLow, inClose, optInPenetration, outBegIdx, outNBElement, outInteger);
 }
 
@@ -180,7 +180,7 @@ TA_EXPORT TA_RetCode Z_CdlHammer(int startIdx, int endIdx, const double *inOpen,
     return TA_CDLHAMMER(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlhangIngMan(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlHangingMan(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLHANGINGMAN(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -204,7 +204,7 @@ TA_EXPORT TA_RetCode Z_CdlHikkakeMod(int startIdx, int endIdx, const double *inO
     return TA_CDLHIKKAKEMOD(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlhomIngPigeOn(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlHoMingPigeOn(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLHOMINGPIGEON(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -212,19 +212,19 @@ TA_EXPORT TA_RetCode Z_CdlIdentical3Crows(int startIdx, int endIdx, const double
     return TA_CDLIDENTICAL3CROWS(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlInNeck(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlinNeck(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLINNECK(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlInvertedHammer(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlinvertedHammer(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLINVERTEDHAMMER(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlkickIng(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlKicking(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLKICKING(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlkickIngByLength(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlKickingByLength(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLKICKINGBYLENGTH(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -236,7 +236,7 @@ TA_EXPORT TA_RetCode Z_CdlLOngLeggedDoji(int startIdx, int endIdx, const double 
     return TA_CDLLONGLEGGEDDOJI(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlLOngLIne(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlLOngLine(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLLONGLINE(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -244,7 +244,7 @@ TA_EXPORT TA_RetCode Z_CdlMarubozu(int startIdx, int endIdx, const double *inOpe
     return TA_CDLMARUBOZU(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlMatchIngLow(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlMatchingLow(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLMATCHINGLOW(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -252,11 +252,11 @@ TA_EXPORT TA_RetCode Z_CdlMatHold(int startIdx, int endIdx, const double *inOpen
     return TA_CDLMATHOLD(startIdx, endIdx, inOpen, inHigh, inLow, inClose, optInPenetration, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlmornIngDojiStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlMorningDojiStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLMORNINGDOJISTAR(startIdx, endIdx, inOpen, inHigh, inLow, inClose, optInPenetration, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlmornIngStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlMorningStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, double optInPenetration, /* From 0 to TA_REAL_MAX */ int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLMORNINGSTAR(startIdx, endIdx, inOpen, inHigh, inLow, inClose, optInPenetration, outBegIdx, outNBElement, outInteger);
 }
 
@@ -264,7 +264,7 @@ TA_EXPORT TA_RetCode Z_CdlOnNeck(int startIdx, int endIdx, const double *inOpen,
     return TA_CDLONNECK(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlpiercIng(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlPiercing(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLPIERCING(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -276,19 +276,19 @@ TA_EXPORT TA_RetCode Z_CdlRiseFall3Methods(int startIdx, int endIdx, const doubl
     return TA_CDLRISEFALL3METHODS(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlseparatIngLines(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlSeparatingLines(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLSEPARATINGLINES(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlshootIngStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlShootingStar(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLSHOOTINGSTAR(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlShortLIne(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlShortLine(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLSHORTLINE(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlspInningTop(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlSpinningTop(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLSPINNINGTOP(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -308,7 +308,7 @@ TA_EXPORT TA_RetCode Z_CdlTasukiGap(int startIdx, int endIdx, const double *inOp
     return TA_CDLTASUKIGAP(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_CdlthrustIng(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_CdlThrusting(int startIdx, int endIdx, const double *inOpen, const double *inHigh, const double *inLow, const double *inClose, int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_CDLTHRUSTING(startIdx, endIdx, inOpen, inHigh, inLow, inClose, outBegIdx, outNBElement, outInteger);
 }
 
@@ -384,11 +384,11 @@ TA_EXPORT TA_RetCode Z_HtPhasor(int startIdx, int endIdx, const double *inReal, 
     return TA_HT_PHASOR(startIdx, endIdx, inReal, outBegIdx, outNBElement, outInPhase, outQuadrature);
 }
 
-TA_EXPORT TA_RetCode Z_HtSIne(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outSine, double *outLeadSine) {
+TA_EXPORT TA_RetCode Z_HtSine(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outSine, double *outLeadSine) {
     return TA_HT_SINE(startIdx, endIdx, inReal, outBegIdx, outNBElement, outSine, outLeadSine);
 }
 
-TA_EXPORT TA_RetCode Z_HtTrendLIne(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_HtTrendLine(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_HT_TRENDLINE(startIdx, endIdx, inReal, outBegIdx, outNBElement, outReal);
 }
 
@@ -400,19 +400,19 @@ TA_EXPORT TA_RetCode Z_Kama(int startIdx, int endIdx, const double *inReal, int 
     return TA_KAMA(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_LInearReg(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_LinearReg(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_LINEARREG(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_LInearRegAngle(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_LinearRegAngle(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_LINEARREG_ANGLE(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_LInearRegIntercept(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_LinearRegIntercept(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_LINEARREG_INTERCEPT(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_LInearRegSlope(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_LinearRegSlope(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_LINEARREG_SLOPE(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
@@ -464,7 +464,7 @@ TA_EXPORT TA_RetCode Z_Mfi(int startIdx, int endIdx, const double *inHigh, const
     return TA_MFI(startIdx, endIdx, inHigh, inLow, inClose, inVolume, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_MidpoInt(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_MidPoint(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_MIDPOINT(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
@@ -472,27 +472,27 @@ TA_EXPORT TA_RetCode Z_MidPrice(int startIdx, int endIdx, const double *inHigh, 
     return TA_MIDPRICE(startIdx, endIdx, inHigh, inLow, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_MIn(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_Min(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_MIN(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_MInIndex(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, int *outInteger) {
+TA_EXPORT TA_RetCode Z_MinIndex(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, int *outInteger) {
     return TA_MININDEX(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outInteger);
 }
 
-TA_EXPORT TA_RetCode Z_MInMax(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outMin, double *outMax) {
+TA_EXPORT TA_RetCode Z_MinMax(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outMin, double *outMax) {
     return TA_MINMAX(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outMin, outMax);
 }
 
-TA_EXPORT TA_RetCode Z_MInMaxIndex(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, int *outMinIdx, int *outMaxIdx) {
+TA_EXPORT TA_RetCode Z_MinMaxIndex(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, int *outMinIdx, int *outMaxIdx) {
     return TA_MINMAXINDEX(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outMinIdx, outMaxIdx);
 }
 
-TA_EXPORT TA_RetCode Z_MInusDi(int startIdx, int endIdx, const double *inHigh, const double *inLow, const double *inClose, int optInTimePeriod, /* From 1 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_MinusDi(int startIdx, int endIdx, const double *inHigh, const double *inLow, const double *inClose, int optInTimePeriod, /* From 1 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_MINUS_DI(startIdx, endIdx, inHigh, inLow, inClose, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_MInusDm(int startIdx, int endIdx, const double *inHigh, const double *inLow, int optInTimePeriod, /* From 1 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_MinusDm(int startIdx, int endIdx, const double *inHigh, const double *inLow, int optInTimePeriod, /* From 1 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_MINUS_DM(startIdx, endIdx, inHigh, inLow, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
 
@@ -552,11 +552,11 @@ TA_EXPORT TA_RetCode Z_SarExt(int startIdx, int endIdx, const double *inHigh, co
     return TA_SAREXT(startIdx, endIdx, inHigh, inLow, optInStartValue, optInOffsetOnReverse, optInAccelerationInitLong, optInAccelerationLong, optInAccelerationMaxLong, optInAccelerationInitShort, optInAccelerationShort, optInAccelerationMaxShort, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_SIn(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_Sin(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_SIN(startIdx, endIdx, inReal, outBegIdx, outNBElement, outReal);
 }
 
-TA_EXPORT TA_RetCode Z_SInh(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
+TA_EXPORT TA_RetCode Z_Sinh(int startIdx, int endIdx, const double *inReal, int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_SINH(startIdx, endIdx, inReal, outBegIdx, outNBElement, outReal);
 }
 
@@ -647,5 +647,6 @@ TA_EXPORT TA_RetCode Z_Willr(int startIdx, int endIdx, const double *inHigh, con
 TA_EXPORT TA_RetCode Z_Wma(int startIdx, int endIdx, const double *inReal, int optInTimePeriod, /* From 2 to 100000 */ int *outBegIdx, int *outNBElement, double *outReal) {
     return TA_WMA(startIdx, endIdx, inReal, optInTimePeriod, outBegIdx, outNBElement, outReal);
 }
+
 
 #endif // TA_EXPORT_H
