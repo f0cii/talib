@@ -2721,7 +2721,7 @@ func SarExt(inHigh []float64, inLow []float64, optInStartValue float64, optInOff
  * Output = double
  * 
  */
-func SIn(inReal []float64) []float64 {
+func Sin(inReal []float64) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
@@ -2738,7 +2738,7 @@ func SIn(inReal []float64) []float64 {
  * Output = double
  * 
  */
-func SInh(inReal []float64) []float64 {
+func Sinh(inReal []float64) []float64 {
     var outBegIdx int
     var outNBElement int
     n := len(inReal)
