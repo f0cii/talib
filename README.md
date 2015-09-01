@@ -17,3 +17,6 @@ func main() {
 	// => [0 1]
 }
 ```
+
+## Build "talib.dll" use VS2013
+Open ta-lib\c\ide\vs2013\dll_proj\talib.sln and Build. That's All.
