@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/nvsoft/talib"
+	"github.com/sumorf/talib"
 )
 
 func main() {
