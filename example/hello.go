@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nvsoft/talib"
+	"github.com/sumorf/talib"
 	"fmt"
 	"math"
 )
