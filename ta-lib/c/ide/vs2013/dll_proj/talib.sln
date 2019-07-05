@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "talib", "talib\talib.vcxproj", "{EA5B2057-78A7-4092-8BC7-3FC780C80E00}"
 EndProject
@@ -17,12 +17,15 @@ Global
 		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Debug|Win32.Build.0 = Debug|Win32
 		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Debug|x64.ActiveCfg = Debug|x64
 		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Debug|x64.Build.0 = Debug|x64
-		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Release|Win32.ActiveCfg = Release|Win32
-		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Release|Win32.Build.0 = Release|Win32
+		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Release|Win32.ActiveCfg = Debug|Win32
+		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Release|Win32.Build.0 = Debug|Win32
 		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Release|x64.ActiveCfg = Release|x64
 		{EA5B2057-78A7-4092-8BC7-3FC780C80E00}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D37B0FC7-A1FB-46EA-BBCA-51DB396FD6AF}
 	EndGlobalSection
 EndGlobal
