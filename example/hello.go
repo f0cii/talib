@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/sumorf/talib"
 	"fmt"
+	"github.com/sumorf/talib"
 	"math"
 )
 
