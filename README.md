@@ -32,7 +32,7 @@ To compile first download [ta-lib-0.4.0-src.tar.gz](http://prdownloads.sourcefor
 ```
 $ wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
 $ tar -xzf ta-lib-0.4.0-src.tar.gz
-$ ta-lib
+$ cd ta-lib
 $ ./configure --prefix=/usr LDFLAGS="-lm"
 $ make
 $ sudo make install
