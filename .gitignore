@@ -9,12 +9,7 @@ temp
 _obj
 _test
 # Build Results
-[Dd]ebug/
-[Rr]elease/
-[Bb]uild/
-[Xx]64/
-[Bb]in/
-[Oo]bj/
+
 
 # User-specific files
 *.suo
