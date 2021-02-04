@@ -4,6 +4,7 @@
 *.so
 
 # Folders
+.vs
 _obj
 _test
 
