@@ -7,6 +7,10 @@
 .vs
 _obj
 _test
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
 
 # Architecture specific extensions/prefixes
 *.[568vq]
