@@ -1,6 +1,16 @@
 ﻿========================================================================
     动态链接库：ta-lib 项目概述
 ========================================================================
+[2021-02-05] added by Jim4work
+Q:How to fix Link Errors? (怎样修复连接错误[LNK2001]?)
+  Error LNK2001: unresolved external symbol __TA_MACD ... (连接错误LNK2001:无法解析的外部符号: __TA_MACD 等等...)
+A: You need to configure your project in Visual Studio. (您需要在 Visual Studio 中修改项目的配置属性)
+  In your project properties, under Linker -> General, add '..\..\..\..\lib;' to Additional Library Directories. 
+  (打开项目的配置属性, 找到'链接器'->'常规', 在'附加库目录'中添加'..\..\..\..\lib;')
+  Under Linker -> Input, add 'ta_libc_cdr.lib;ta_libc_cmr.lib;'(and/or other ta_libc_**.libs) to Additional Dependencies. 
+  (再找到'链接器'->'输入', 在'附加依赖项'中添加'ta_libc_cdr.lib;ta_libc_cmr.lib;'或其它几个库文件)
+  This tells Visual Studio the name and location of your thirdparty libraries, so that it can link it into your main application.
+  (这是告诉 Visual Studio 第三方库文件的名字和路径, 这样才能让编译器正确地将库链接到主程序中)    
 
 应用程序向导已为您创建了此 ta-lib DLL。
 
