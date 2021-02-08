@@ -2,10 +2,19 @@
 *.o
 *.a
 *.so
+*.obj
 
 # Folders
+.vs
+
 _obj
 _test
+# Build Results
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
 
 # Architecture specific extensions/prefixes
 *.[568vq]
